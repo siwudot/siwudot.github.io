@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    font-family: minecraft-ten;
+    font-size: 100px;
+    color: white;
+}
+
+@font-face {
+    font-family: minecraft-ten;
+    src: url("../fonts/ten.ttf");
+}
