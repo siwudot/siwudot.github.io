@@ -9,3 +9,35 @@ body {
     font-family: minecraft-ten;
     src: url("../fonts/ten.ttf");
 }
+
+.button1 {
+    color: white;
+    transform: translateY(-4px);
+    display: inline-block;
+    padding: 8px 24px;
+    font-size: 24px;
+    font-family: minecraft-ten;
+    text-shadow: 3px 3px #3c8527;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border: 3px solid #75b75d;
+    background-color: #52a535;
+    box-shadow: 0 10px #1d4d13;
+}
+
+.button1:hover {
+    outline-style: solid;
+    outline-color: white;
+    border: 3px solid #639d52;
+    background-color: #3c8527;
+    box-shadow: 0 10px #1d4d13;
+}
+
+.button1:active {
+    background-color: #2a641c;
+    box-shadow: 0 0px #558349;
+    text-shadow: 3px 3px #2a641c;
+    transform: translateY(4px);
+}
+
