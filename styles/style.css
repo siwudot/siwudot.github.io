@@ -1,43 +1,36 @@
 body {
     background-color: black;
-    font-family: minecraft-ten;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 100px;
     color: white;
 }
 
-@font-face {
-    font-family: minecraft-ten;
-    src: url("../fonts/ten.ttf");
-}
-
 .button1 {
-    color: white;
+    color: rgb(48, 48, 48);
+    font-family: Arial, Helvetica, sans-serif;
     transform: translateY(-4px);
     display: inline-block;
     padding: 8px 24px;
     font-size: 24px;
-    font-family: minecraft-ten;
-    text-shadow: 3px 3px #3c8527;
     cursor: pointer;
     text-align: center;
     text-decoration: none;
-    border: 3px solid #75b75d;
-    background-color: #52a535;
-    box-shadow: 0 10px #1d4d13;
+    border: 3px solid #ffffff;
+    background-color: #dbdbdb;
+    box-shadow: 0 10px #6d6d6d;
 }
 
 .button1:hover {
-    outline-style: solid;
-    outline-color: white;
-    border: 3px solid #639d52;
-    background-color: #3c8527;
-    box-shadow: 0 10px #1d4d13;
+    color: rgb(255, 255, 255);
+    border: 3px solid #ffffff;
+    background-color: #a7a7a7;
+    box-shadow: 0 10px #6d6d6d;
 }
 
 .button1:active {
-    background-color: #2a641c;
-    box-shadow: 0 0px #558349;
-    text-shadow: 3px 3px #2a641c;
+    color: rgb(182, 182, 182);
+    border: 3px solid #adadad;
+    background-color: #6d6d6d;
+    box-shadow: 0 0px #585858;
     transform: translateY(4px);
 }
-
