@@ -34,3 +34,34 @@ body {
     box-shadow: 0 0px #585858;
     transform: translateY(4px);
 }
+
+button#below {
+    position: relative;
+    bottom: -100px;
+}
+
+img#text {
+top:28px;
+height: 60px;
+animation-name: text1;
+position: absolute;
+animation-duration: 2s;
+}
+
+img#logo {
+height: 100px;
+animation-name: img;
+position: relative;
+animation-duration: 2s;
+}
+
+@keyframes text1 {
+  from {left: 400px; opacity: 0%;}
+  to {left: 127px; opacity: 100%;}
+}
+
+
+@keyframes img {
+  from {left: 0px; opacity: 0%;}
+  to {left: 0px;}
+}
