@@ -41,27 +41,40 @@ button#below {
 }
 
 img#text {
-top:28px;
-height: 60px;
-animation-name: text1;
-position: absolute;
-animation-duration: 2s;
+    top: 28px;
+    height: 60px;
+    animation-name: text1;
+    position: absolute;
+    animation-duration: 2s;
 }
 
 img#logo {
-height: 100px;
-animation-name: img;
-position: relative;
-animation-duration: 2s;
+    height: 100px;
+    animation-name: aaa;
+    position: relative;
+    animation-duration: 2s;
 }
 
 @keyframes text1 {
-  from {left: 400px; opacity: 0%;}
-  to {left: 127px; opacity: 100%;}
+    from {
+        left: 400px;
+        opacity: 0%;
+    }
+
+    to {
+        left: 127px;
+        opacity: 100%;
+    }
 }
 
 
-@keyframes img {
-  from {left: 0px; opacity: 0%;}
-  to {left: 0px;}
+@keyframes aaa {
+    from {
+        left: 0px;
+        opacity: 0%;
+    }
+
+    to {
+        left: 0px;
+    }
 }
